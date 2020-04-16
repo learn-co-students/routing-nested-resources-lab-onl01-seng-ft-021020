@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddArtistToSong	db/migrate/20160126235547_add_artist_to_song.rb	/^class AddArtistToSong < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:DisplayingAssociationsRailsLab
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Artist	app/models/artist.rb	/^class Artist < ActiveRecord::Base$/;"	c
+ArtistsController	app/controllers/artists_controller.rb	/^class ArtistsController < ApplicationController$/;"	c
+ArtistsHelper	app/helpers/artists_helper.rb	/^module ArtistsHelper$/;"	m
+CreateArtists	db/migrate/20160108015408_create_artists.rb	/^class CreateArtists < ActiveRecord::Migration$/;"	c
+CreateSongs	db/migrate/20160108015311_create_songs.rb	/^class CreateSongs < ActiveRecord::Migration$/;"	c
+DisplayingAssociationsRailsLab	config/application.rb	/^module DisplayingAssociationsRailsLab$/;"	m
+Song	app/models/song.rb	/^class Song < ActiveRecord::Base$/;"	c
+SongsController	app/controllers/songs_controller.rb	/^class SongsController < ApplicationController$/;"	c
+SongsHelper	app/helpers/songs_helper.rb	/^module SongsHelper$/;"	m
+artist_name	app/models/song.rb	/^  def artist_name$/;"	f	class:Song
+artist_name=	app/models/song.rb	/^  def artist_name=(name)$/;"	f	class:Song
+artist_params	app/controllers/artists_controller.rb	/^  def artist_params$/;"	f	class:ArtistsController
+change	db/migrate/20160108015311_create_songs.rb	/^  def change$/;"	f	class:CreateSongs
+change	db/migrate/20160108015408_create_artists.rb	/^  def change$/;"	f	class:CreateArtists
+change	db/migrate/20160126235547_add_artist_to_song.rb	/^  def change$/;"	f	class:AddArtistToSong
+create	app/controllers/artists_controller.rb	/^  def create$/;"	f	class:ArtistsController
+create	app/controllers/songs_controller.rb	/^  def create$/;"	f	class:SongsController
+destroy	app/controllers/artists_controller.rb	/^  def destroy$/;"	f	class:ArtistsController
+destroy	app/controllers/songs_controller.rb	/^  def destroy$/;"	f	class:SongsController
+display_artist	app/helpers/artists_helper.rb	/^  def display_artist(song)$/;"	f	class:ArtistsHelper
+edit	app/controllers/artists_controller.rb	/^  def edit$/;"	f	class:ArtistsController
+edit	app/controllers/songs_controller.rb	/^  def edit$/;"	f	class:SongsController
+index	app/controllers/artists_controller.rb	/^  def index$/;"	f	class:ArtistsController
+index	app/controllers/songs_controller.rb	/^  def index$/;"	f	class:SongsController
+new	app/controllers/artists_controller.rb	/^  def new$/;"	f	class:ArtistsController
+new	app/controllers/songs_controller.rb	/^  def new$/;"	f	class:SongsController
+show	app/controllers/artists_controller.rb	/^  def show$/;"	f	class:ArtistsController
+show	app/controllers/songs_controller.rb	/^  def show$/;"	f	class:SongsController
+song_params	app/controllers/songs_controller.rb	/^  def song_params$/;"	f	class:SongsController
+system!	bin/setup	/^def system!(*args)$/;"	f
+system!	bin/update	/^def system!(*args)$/;"	f
+update	app/controllers/artists_controller.rb	/^  def update$/;"	f	class:ArtistsController
+update	app/controllers/songs_controller.rb	/^  def update$/;"	f	class:SongsController
